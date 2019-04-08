@@ -21,7 +21,7 @@ By **{zubeir-Abubakar}**.
 
  -The same applies to player 2.
 
--And lastly the link to the project where you can play the game. (https://zubeir-abubakar.github.io/Quiz-board/)
+-And lastly the link to the project where you can play the game.
 
 ## Deployment
 
