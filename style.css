@@ -1,0 +1,116 @@
+h1{
+    font-family: 'Shojumaru',
+    cursive;
+    color: aqua;
+
+}
+h2{
+    background: burlywood;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 40px;
+    color: black;
+    width: 500px;
+}
+ol{
+    background: red;
+    font-style: oblique;
+    font-size: larger;
+    padding: 20px;
+    margin: 10px solid green;
+    border-radius: 20px;
+    color: aliceblue;
+}
+h3{
+    font-size: larger; 
+    color: whitesmoke;
+}
+p{
+    font-size: larger;
+    color: aliceblue;
+}
+h4{
+    background: red;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 30px;
+    width: 250px;
+    color: whitesmoke;
+    font-size:xx-large;
+    font-style: italic;
+}
+#start{
+    align-self: center;
+    font-style: italic;
+    border-color: brown;
+    background: darkcyan;
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+    color: white;
+    font-size: 16px;
+    transition-duration: .5s;
+    margin-top: 15px;
+    }
+#start:hover {
+    background: white;
+    border: 1px solid blue;
+    color: black;
+    cursor: pointer;
+
+}
+#reset{
+    font-style: italic;
+    border-color: brown;
+    background: darkcyan;
+    border: none;
+    border-radius: 5px;
+    padding:10;
+    color: white;
+    font-size: 16px;
+    transition-duration: .5s;
+    margin-top: 15px;
+    float: right;
+    }
+
+    #reset:hover {
+        background: white;
+        border: 1px solid blue;
+        color: black;
+        cursor: pointer;
+
+    }
+    body{
+        margin: 30px;
+        padding: 30px;
+        border-radius: 3px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .congrates{
+        display: none;
+        text-align: center;
+        font-size: 30px;
+        background: darkolivegreen;
+        color: aqua;
+    }
+    .dice{
+        size: 40px;
+        width: 50px;
+        height: 50px;
+        background: skyblue;
+    }
+    marquee{
+        background: forestgreen;
+        color: aquamarine;
+        margin: 10px;
+        padding:10px;
+        border-radius:50px;
+        font-size: larger;
+    }
+    .jumbotron{
+        color: blue;
+    }
+    p{
+        background:gray;
+    }

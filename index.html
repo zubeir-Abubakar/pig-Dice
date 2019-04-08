@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tittle>PIG DICE ROLLER</tittle> <br><br>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+                <script src="js/script.js"></script>
+                <link href="https://fonts.googleapis.com/css?family=Shojumaru" rel="stylesheet">
+                <div>
+                    <CENTER><marquee width=20% height=50px direction=scroll>###PIG ROLL DICE###</marquee>
+                </div>
+
+            <h1><center>PIG ROLLER DICE</h1>
+            <h2><jumbotron> PIG DICE ROLL RULES:-</jumbotron></h2>
+             <ol><em>
+                 <li>This is a dice game </li>
+               <li>There must be 2 players atleast</li>
+              <li>player 1 rolls the dice and scores points which will be added together untill he/she scores one.If score is one,the dice is passed to the next player 2 and all the  points gets lost unless you hold it </li>
+              <li>when player 2 score is one  he/she  looses all the scores except the ones that he/she had put on hold.</li>
+              <li>when the scores on the hold exceeds or equal  to 100,the player becomes the winner and there will be an alert onthe screen top </li>
+              <li>Then the game ends!!!</li>
+
+             </ol></em>
+             </head>
+    <body background="img/giphy.gif">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 id="name1">PLAYER 1:</h3>
+                    <input required id="name1" type="text" name="name" value="" placeholder="Place your name..">
+                </div>
+                <div class="col-md-6">
+                    <h3>PLAYER 2:</h3>
+                    <input required id="name2" type="text" name="name" value="" placeholder="Place your name.."><br><br>
+                </div>
+            </div>
+            <!-- <input id="start" type="submit"> -->
+            <center><button id="start" type="submit">START</button>
+            </div>
+                <div class="row">
+            
+                    <div class="col-md-4" id="bod">
+                        <h4>PLAYER 1:- </h4>
+                        <p id="player1"></p>
+                        <p>Roll Dice:-</p><br>
+                        <p id="plyr1"></p>
+                        <p>Total Sum1:-</p><br>
+                        <p id="totalSum1"></p>
+                        <p>Current Score1:-</p><br>
+                        <p id="presentScore1"></p>
+                    </div>
+                    <div class="col-md-4" id="bodx">
+                        <div><img id="img" src="" alt=""></div>
+                        <div class="bt1">
+                            <button type="button" class="btn btn-outline-success" onclick="roll1()">Roll</button>
+                            <button id="hold1" type="button" class="btn btn-outline-warning">hold</button>
+                        </div>
+                        <div class="bt2">
+                            <button type="button" class="btn btn-outline-success" onclick="roll2()">Roll</button>
+                            <button id="hold2" type="button" class="btn btn-outline-warning">hold</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4" id="bos">
+                        <h4>PLAYER 2:-</h4>
+                        <p id="player2"></p>
+                        <p>Roll Dice:-</p><br>
+                        <p id="plyr2"></p>
+                        <p>Total Sum 2:-</p><br>
+                        <p id="totalSum2"></p>
+                        <p>Current Score 2:-</p><br>
+                        <p id="currentScore2"></p>
+                        <div class="game">
+                        <button id="reset" type="button" class="btn btn-outline-info"
+                         onclick="reload()"> RESTART</button>
+                    </div>
+                </div>
+        </body>
+        </html>
